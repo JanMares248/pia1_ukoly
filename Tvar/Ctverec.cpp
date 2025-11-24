@@ -7,6 +7,10 @@ Ctverec::Ctverec(float s) : strana(s) {
     }
 }
 
+Ctverec::~Ctverec(){
+    
+}
+
 float Ctverec::obvod() {
     return 4.0f * strana;
 }

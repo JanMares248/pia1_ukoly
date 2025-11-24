@@ -6,6 +6,10 @@ Kruh::Kruh(float r) : radius(r) {
         radius = 0;
     }
 }
+Kruh::~Kruh() {
+}
+
+
 void Kruh::setRadius(float r) {
     if (r >= 0) {
         radius = r;

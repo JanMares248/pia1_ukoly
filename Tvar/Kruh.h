@@ -13,6 +13,9 @@ private:
 public:
 
 	Kruh(float r);
+
+	~Kruh() override;
+
 	void setRadius(float r);
 	float getRadius() const;
 

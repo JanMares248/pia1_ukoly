@@ -8,6 +8,7 @@ private:
 public:
 
 	Ctverec(float s);
+	~Ctverec() override;
 
 	float obvod() override;
 	float obsah() override;
